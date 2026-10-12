@@ -1,0 +1,28 @@
+
+body {
+    background-color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 30px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    font-size: 17px;
+}
+
+.produkti {
+    background-color: white;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+}
