@@ -3,10 +3,12 @@
 
 :root {
     --ink: ;
-    --muted: #777d89;
-    --blue: #5a7cff;
-    --paper: #f5f6f8;
-    --line: #e4e6eb;
+    --muted: black
+    ;
+    --blue: blue  ;
+    
+    --paper: white;
+    --line: white;
 }
 
 * {

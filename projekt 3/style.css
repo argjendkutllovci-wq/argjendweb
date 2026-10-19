@@ -1,0 +1,189 @@
+/* RESET BAZIK */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    color: darkslate gray;
+    line-height: 1.6;
+}
+
+/* HEADER & NAVIGIMI */
+#argjent-1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 3px solid teal;
+}
+
+.argjent-2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: teal;
+}
+
+.argjent-2 span {
+    color: royalblue;
+}
+
+.argjent-3 {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.argjent-3 a {
+    text-decoration: none;
+    color: dimgray;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.argjent-3 a:hover, .argjent-4 {
+    color: white !important;
+    background-color: teal;
+}
+
+/* HERO SECTION */
+.argjent-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    border-left: 5px solid royalblue;
+}
+
+.argjent-6 {
+    max-width: 50%;
+}
+
+.argjent-6 h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: royalblue;
+}
+
+.argjent-7 {
+    display: inline-block;
+    background: royalblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.argjent-7:hover {
+    background: teal;
+}
+
+/* CARDS / FEATURES / PRODUCTS */
+.argjent-9 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.argjent-10 {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.argjent-10:hover {
+    border-color: royalblue;
+}
+
+/* CONTAINER NDIHMËS */
+.argjent-11 {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+
+/* EXTERNAL INFO */
+.argjent-14 {
+    text-align: center;
+    margin: 20px 0;
+    color: gray;
+}
+
+/* FOOTER */
+#argjent-15 {
+    background: darkslategrey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* TABELA NË SHOP */
+.argjent-16 {
+    padding: 0 20px;
+    overflow-x: auto;
+}
+
+#argjent-17 {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+
+#argjent-17 th, #argjent-17 td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+}
+
+.argjent-18 th {
+    background-color: teal;
+    color: white;
+}
+
+.argjent-19:hover {
+    background-color: aliceblue;
+}
+
+.argjent-20 {
+    background: lightgreen;
+    color: darkgreen;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* MEDIA QUERIES (RESPONSIVET FOR MOBILE) */
+@media (max-width: 768px) {
+    #argjent-1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .argjent-5, .argjent-9 {
+        flex-direction: column;
+    }
+
+    .argjent-6 {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+}
